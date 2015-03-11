@@ -1,10 +1,45 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-twitter_username: jekyllrb
-github_username:  jekyll
-baseurl: "/freelancer-theme"
+title: CCKorea 10th!
+email: creative@cckorea.org
+url: http://beta.cckorea.org/cck-10th
+description: "10th anniversary of Creative Commons Korea Community!"
+
+twitter_username: cckorea
+github_username:  creativecommonskorea
+baseurl: "/cck-10th"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/groups/CCKorean/
+  - title: twitter
+    url: http://twitter.com/cckorea
+  - title: github
+    url: http://github.com/creativecommonskorea
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 서울특별시 마포구 
+  - line: 서교동 363-20 5층
+
+# Credits content
+# credits: ''
 
 # Build settings
 markdown: kramdown
