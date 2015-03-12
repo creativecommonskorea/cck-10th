@@ -15,6 +15,27 @@
 	margin: 0.5em;
 }
 
+#greeting {
+	/*background: #54c490;*/
+	background: #fff;
+}
+
 #party {
-	background: #18bc9c;
+	background: #162f5e;
+}
+
+#howto {
+	background: #4caf3b;
+}
+
+#howto-four {
+	background: #421364;
+}
+
+#howto-details {
+	background: #fff;
+}
+
+#about {
+	background: #423732;
 }
