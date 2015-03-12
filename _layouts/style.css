@@ -1,2 +1,20 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+.navbar-brand.logo {
+	text-indent: -1000px;
+	background: url('/cck-10th/img/logo.png') no-repeat;
+	background-size: 300px 60px;
+	width: 300px;
+	height: 60px;
+	margin: 0.5em;
+}
+
+.navbar-brand.lead {
+	display: block;
+	margin: 0.5em;
+}
+
+#party {
+	background: #18bc9c;
+}
