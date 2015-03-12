@@ -15,27 +15,48 @@
 	margin: 0.5em;
 }
 
-#greeting {
-	/*background: #54c490;*/
-	background: #fff;
+#party,
+#party hr.star-light:after {
+	background: #{{ site.color.party }};
 }
 
-#party {
-	background: #162f5e;
+#howto,
+#howto hr.star-light:after {
+	background: #{{ site.color.howto }};
 }
 
-#howto {
-	background: #4caf3b;
+#howto-four,
+#howto-four hr.star-light:after {
+	background: #{{ site.color.howtofour }};
 }
 
-#howto-four {
-	background: #421364;
+#howto-four .col-xs-6 {
+	margin-bottom: 2em;
 }
 
-#howto-details {
-	background: #fff;
+#howto-details .row {
+	margin: 2em 0;
 }
 
-#about {
-	background: #423732;
+#about,
+#about hr.star-light:after {
+	background: #{{ site.color.about }};
+}
+
+#four-logo {
+	position: absolute;
+	left: 40%;
+	margin-top: -60px;
+	z-index: 10;
+}
+
+@media (max-width:768px) { 
+	#four-logo {
+		width: 200px;
+	}
+}
+
+section h2 {
+	margin: 0.5em 0;
+	line-height: 1.5;
 }

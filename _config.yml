@@ -16,6 +16,11 @@ color:
   primary: 18bc9c #80B3FF
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+  white: FFFFFF
+  party: 162f5e
+  howto: 4caf3b
+  howtofour: 411363
+  about: 423732
 
 # Footer settings
 footer:
