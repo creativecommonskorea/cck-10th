@@ -9,7 +9,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<form  action="//formspree.io/creative@cckorea.org" method="POST" name="sentMessage" id="contactForm" novalidate>
+				<form name="sentMessage" id="contactForm" novalidate>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Name</label>
@@ -24,10 +24,6 @@
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
-					<div>
-						<input type="hidden"  name="_subject" value="New submission!">
-						<input type="text" name="_gotcha" style="display:none" />
-					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Message</label>
@@ -36,7 +32,8 @@
 						</div>
 					</div>
 					<br>
-					<div id="success"></div>
+					<div id="success" class="alert alert-success"></div>
+					<div id="failed" class="alert alert-danger"></div>
 					<div class="row">
 						<div class="form-group col-xs-12">
 							<button type="submit" class="btn btn-success btn-lg">Send</button>
