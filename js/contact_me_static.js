@@ -26,7 +26,7 @@ $(function() {
                 _replyto: $('#email').val(),
                 _subject: 'CCL 한국 런칭 10주년! 관련 문의',
                 message: $('#message').val(),
-                _gotcha: ''
+                _gotcha: $('#gotcha').val()
             },
             dataType: "json"
         })
