@@ -31,15 +31,15 @@ $(function() {
             dataType: "json"
         })
         .done(function() {
-            $('#success').html('메시지를 전달했습니다.');
+            $('#success').addClass('alert alert-success').html('메시지를 전달했습니다.');
         })
         .fail(function() {
-            $('#failed').html('음... 문제가 있네요. creative@2cckorea.org로 메일 주세요~');
+            $('#failed').addClass('alert alert-danger').html('음... 문제가 있네요. creative@2cckorea.org로 메일 주세요~');
         })
     });
 });
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
-    $('#success').html('');
+    $('#success').removeClass().html('');
 });
