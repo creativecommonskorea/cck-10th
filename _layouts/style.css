@@ -4,9 +4,9 @@
 .navbar-brand.logo {
 	text-indent: -1000px;
 	background: url('/cck-10th/img/logo.png') no-repeat;
-	background-size: 300px 60px;
-	width: 300px;
-	height: 60px;
+	background-size: 200px 40px;
+	width: 200px;
+	height: 40px;
 	margin: 0.5em;
 }
 
@@ -52,6 +52,11 @@
 }
 
 @media (min-width:768px) { 
+	.navbar-brand.logo {
+		background-size: 300px 60px;
+		width: 300px;
+		height: 60px;
+	}
 	#four-logo {
 		width: auto;
 	}
