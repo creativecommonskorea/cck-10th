@@ -46,13 +46,14 @@
 #four-logo {
 	position: absolute;
 	left: 40%;
-	margin-top: -60px;
+	margin-top: -50px;
 	z-index: 10;
+	width: 180px;
 }
 
-@media (max-width:768px) { 
+@media (min-width:768px) { 
 	#four-logo {
-		width: 200px;
+		width: auto;
 	}
 }
 
