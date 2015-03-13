@@ -23,7 +23,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <p>{{ site.credits | markdownify }}</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        <p><a rel="license" href="http://creativecommons.org/licenses/by/2.0/kr/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="http://i.creativecommons.org/l/by/2.0/kr/88x31.png"></a></p>
                     </div>
                 </div>
             </div>

@@ -1,8 +1,8 @@
 # Site settings
-title: CCKorea 10th!
+title: CCL 한국 런칭 10주년!
 email: creative@cckorea.org
 url: http://beta.cckorea.org/cck-10th
-description: "10th anniversary of Creative Commons Korea Community!"
+description: "CCL 한국 런칭 10주년! 2015년 3월 19일 7시 총회와 함께 파티! 10th anniversary of Creative Commons Korea Community!"
 
 twitter_username: cckorea
 github_username:  creativecommonskorea
@@ -24,8 +24,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: CCKOREA에 의해 작성된 CCKOREA 웹사이트는 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+  location: 서울
   social: Around the Web
   credits: Credits
 
@@ -44,7 +44,9 @@ address:
   - line: 서교동 363-20 5층
 
 # Credits content
-# credits: ''
+credits: |
+  designed by [ㅇㅇㅇ](https://github.com/Yeyeon), [sumihallo](https://www.facebook.com/sumihallo),    
+  coded by [mozodev](http://github.com/mozodev) based on [jeromelachaud/freelancer-theme](http://github.com/jeromelachaud/freelancer-theme)
 
 # Build settings
 markdown: kramdown
